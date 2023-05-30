@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div id="header">
+        <h1>TODO App</h1>
+    </div>
+
+    <form action="">
+        <div id="descp">
+            <label for="descp">Description</label>
+            <input type="text" id="descp" name="" placeholder="What do You need to do?">
+        </div>
+        <div id="second">
+            <div id="category">
+                <label for="Category">Category</label><br>
+                <select name="" id="Category">
+                    <option disabled selected value="">Choose a Category </option>
+                    <option value="Personal">Personal</option>
+                    <option value="Work">Work</option>
+                    <option value="School">School</option>
+                    <option value="Cleaning">Cleaning</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div id="date">
+                <label for="date">Due Date</label><br>
+                <input type="date" name="" id="date" placeholder="dd/mm/yyyy">
+            </div>
+        </div>        
+    </form>
+
+    <div id="conatiner">
+        <p id="add">Add Task</p>
+        <p id="delete">Delete Tasks</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
