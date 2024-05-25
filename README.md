@@ -11,7 +11,7 @@ This project is a simple web application for managing to-do lists. Built using H
 - **Local Storage**: Store tasks locally to persist data between sessions.
 
 ## To-Do List Preview 
-
+https://github.com/Paramhans-Singh/TO-DO-List/assets/101575816/665e16e7-82a3-458f-9856-395871c98e74
 
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
